@@ -2,13 +2,14 @@ package org.example;
 import com.google.gson.Gson;
 
 import javax.swing.*;
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, IOException {
 
-        Json.Json();
+        Api.ApiPull();
 //        serializedUserSimple();
 //        deseralizedUserSimple();
     }
